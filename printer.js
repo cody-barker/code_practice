@@ -12,24 +12,6 @@
  * If the string length is greater than 10 characters, break it into 10 character lines, and return them all
  */
 
-// function printer(str) {
-//   let arr = [];
-//   helper(str, arr)
-//   console.log(arr);
-//   console.log(str);
-// }
-
-// function helper(str, arr, min = 0, max = 10) {
-//   while (str.length > 10) {
-//     arr.push(str.slice(min, max));
-//     min += 10;
-//     max += 10;
-//     str = str.slice(min, max);
-//   }
-//   helper()
-// }
-
-// printer("Please make it medium spicy");
 
 function printer(str) {
   // Split the string into words
