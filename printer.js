@@ -46,6 +46,11 @@
 // }
 
 function printer(str) {
+  if (typeof str !== 'string') {
+    console.log("Error: Input must be a string.");
+    return;
+  }
+
   const words = str.split(" ");
   let lines = [];
   let currentLine = "";
@@ -75,3 +80,4 @@ function printer(str) {
 }
 
 printer("Pleaseasdasdasd sfsdfasdfsdfsdf it medium spicy. I really like it.");
+printer(0)
