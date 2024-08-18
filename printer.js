@@ -46,7 +46,7 @@
 // }
 
 function printer(str) {
-  if (typeof str !== 'string') {
+  if (typeof str !== "string") {
     console.log("Error: Input must be a string.");
     return;
   }
@@ -80,4 +80,6 @@ function printer(str) {
 }
 
 printer("Pleaseasdasdasd sfsdfasdfsdfsdf it medium spicy. I really like it.");
-printer(0)
+printer(0);
+
+//add test comment
